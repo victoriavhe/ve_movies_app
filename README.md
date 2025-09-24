@@ -45,17 +45,18 @@ Here are some screenshot of the apps:
 <p align="center">
   <img src="assets/readme/home.png" alt="Home" width="20%" />
   <img src="assets/readme/detail.png" alt="Details" width="20%" />
-  <img src="assets/readme/all.png" alt="Extra" width="20%" />
-  <img src="assets/readme/filter.png" alt="Extra" width="20%" />
-  <img src="assets/readme/search.png" alt="Extra" width="20%" />
+  <img src="assets/readme/all.png" alt="All" width="20%" />
+  <img src="assets/readme/filter.png" alt="Filter" width="20%" />
+  <img src="assets/readme/search.png" alt="Search" width="20%" />
+  <img src="assets/readme/search-1.png" alt="Search" width="20%" />
 </p>
 
 ## Web:
 <p align="center">
   <img src="assets/readme/web-home.png" alt="Home" width="25%" />
   <img src="assets/readme/web-all.png" alt="Details" width="25%" />
-  <img src="assets/readme/web-detail.png" alt="Extra" width="25%" />
-  <img src="assets/readme/web-filter.png" alt="Extra" width="25%" />
+  <img src="assets/readme/web-detail.png" alt="Detail" width="25%" />
+  <img src="assets/readme/web-search.png" alt="Filter" width="25%" />
 </p>
 
 Thank you!!!
