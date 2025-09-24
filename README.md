@@ -1,16 +1,63 @@
-# ve_movies_app
+# 🎬 VE Movies App
 
-A new Flutter project.
+A Flutter application that demonstrates clean architecture with **Dependency Injection (GetIt)**, **BLoC state management**, and environment configuration via **dotenv / dart-define**.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📂 Project Structure
+- **lib/app/domain** → Business logic (entities, repositories, use cases)  
+- **lib/app/infra** → Data layer (API implementations, repositories)  
+- **lib/app/presentation** → UI layer (views, widgets, blocs)  
+- **lib/app/core/di** → Service locator setup (`GetIt`)  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🔧 Key Features
+- **BLoC (flutter_bloc)** for state management  
+- **GetIt** for dependency injection (service locator pattern)  
+- **flutter_dotenv** for environment variables on mobile/desktop  
+- **--dart-define** for secure config on web builds  
+- Clean separation of concerns (API → Repository → UseCase → Bloc → UI)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 How to Run
+
+### 1. Install dependencies
+flutter pub get
+### 2. Set environment variables
+Mobile/Desktop → create assets/env/.env:
+API_BASE_URL=https://api.example.com
+API_TOKEN=your_bearer_token
+### 3. Run
+flutter run
+
+## 🛠 Notes
+
+Keep .env out of version control.
+
+But on this project, I push .env to repo so you can easily run the app. :) 
+
+
+Here are some screenshot of the apps: 
+
+## Mobile: 
+<p align="center">
+  <img src="assets/readme/home.png" alt="Home" width="20%" />
+  <img src="assets/readme/detail.png" alt="Details" width="20%" />
+  <img src="assets/readme/all.png" alt="Extra" width="20%" />
+  <img src="assets/readme/filter.png" alt="Extra" width="20%" />
+  <img src="assets/readme/search.png" alt="Extra" width="20%" />
+</p>
+
+## Web:
+<p align="center">
+  <img src="assets/readme/web-home.png" alt="Home" width="25%" />
+  <img src="assets/readme/web-all.png" alt="Details" width="25%" />
+  <img src="assets/readme/web-detail.png" alt="Extra" width="25%" />
+  <img src="assets/readme/web-filter.png" alt="Extra" width="25%" />
+</p>
+
+Thank you!!!
+
+
